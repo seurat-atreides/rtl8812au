@@ -16,10 +16,17 @@
 [![aircrack-ng](https://img.shields.io/badge/aircrack--ng-supported-blue.svg)](https://github.com/aircrack-ng/aircrack-ng)
 [![wifite2](https://img.shields.io/badge/wifite2-supported-blue.svg)](https://github.com/derv82/wifite2)
 
+### Prep your Raspnian
+...
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install raspberrypi-kernel-headers git
+...
+
 ### DKMS
 This driver can be installed using [DKMS]. This is a system which will automatically recompile and install a kernel module when a new kernel gets installed or updated. To make use of DKMS, install the `dkms` package, which on Debian (based) systems is done like this:
 ```
-$ sudo apt-get install dkms
+$ sudo apt-get install dkms 
 ```
 
 ### Installation of Driver
