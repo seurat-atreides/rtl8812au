@@ -16,7 +16,7 @@
 [![aircrack-ng](https://img.shields.io/badge/aircrack--ng-supported-blue.svg)](https://github.com/aircrack-ng/aircrack-ng)
 [![wifite2](https://img.shields.io/badge/wifite2-supported-blue.svg)](https://github.com/derv82/wifite2)
 
-### Prep your Raspnian
+### Prep your Raspbian
 ```
 $ sudo apt-get update
 $ sudo apt-get upgrade
