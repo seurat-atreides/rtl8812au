@@ -21,6 +21,7 @@
 $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install raspberrypi-kernel-headers git
+$ sudo reboot
 ```
 
 ### DKMS
